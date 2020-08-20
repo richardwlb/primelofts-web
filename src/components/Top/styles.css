@@ -1,0 +1,63 @@
+.top-contact {
+    display: flex;
+    padding: 10px;
+    height: 40px;
+    color: white;
+    justify-content: space-between;
+    background-color: #084B8A;
+    font:Roboto;
+    
+    box-shadow: 5px 5px 5px 2px #888888;
+}
+
+.top-contact h3 {
+    margin-top: -4px;
+    padding: 10px;
+    margin-left: -380px;
+}
+.top-contact h1 {
+    margin-top: -5px;
+    text-align: left;
+}
+
+.top-contact h4 {
+    margin-top: 0px;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.reservar {
+    line-height:30px;
+    justify-items: right;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    align-content: center;
+}
+
+
+.menu {
+    
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu a {
+    display: table-cell;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: opacity 0.5s;
+  }
+
+  .menu a:hover {
+    opacity: 0.6;
+  }
+
+

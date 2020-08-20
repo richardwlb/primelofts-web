@@ -1,0 +1,76 @@
+#check-dates {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color:black; */
+    background-color:white;
+    position: relative;
+}
+
+.check-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+#check-dates button{
+    /* border-radius: 3px; */
+    width: 7rem;
+    /* height: 35px; */
+    margin-top: 23px; 
+    margin-left: 6px;
+ }
+
+#check-dates input{
+   /* border-radius: 3px;
+   height: 30px;
+   border: 1px solid #dcdce6;
+   color: #333;
+   padding: 0 24px; */
+}
+
+#check-dates input[type=number]{
+    width: 25px;
+}
+#check-dates label{
+    font: 400 14px Roboto, sans-serif;
+    /* color: cornsilk; */
+    color: black;
+    margin-bottom: 6px;
+}
+
+h1 {
+    font: 400 35px Roboto, sans-serif;
+}
+
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+    font: 400 20px Roboto;
+    text-align: left;
+}
+
+.map {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    
+}
+
+.porque-conosco{
+    text-align: left;
+    margin-right: 80px;
+}
+
+.porque-conosco li {
+    font-size: 18px;
+    
+}
+

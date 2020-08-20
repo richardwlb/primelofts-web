@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    padding: 7px;
+    height: 150px;
+    color: white;
+    justify-content: space-between;
+    background-color: #084B8A;
+    font:Roboto;
+    /* margin-bottom: 0px; */
+    /* box-shadow: 5px 5px 5px 2px #888888; */
+}
+
+.footer div {
+    text-align: left;
+    margin-right: 30px;
+}
+
+
+
