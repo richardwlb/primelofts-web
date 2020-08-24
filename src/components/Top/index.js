@@ -17,11 +17,11 @@ const Top = () => {
                 </div>
             </div>
             <div className="menu">
-                <a href="">Início</a>
-                <a href="">Apartamentos & Suítes</a>
-                <a href="">Atrações Turísticas</a>
-                <a href="">Sobre</a>
-                <a href="">Contato</a>
+                <a href="/#">Início</a>
+                <a href="/#">Apartamentos & Suítes</a>
+                <a href="/#">Atrações Turísticas</a>
+                <a href="/#">Sobre</a>
+                <a href="/#">Contato</a>
             </div>
         </>
     );
