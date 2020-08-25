@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6026803.chunk.css",
+    "main.js": "/static/js/main.1d4b038b.chunk.js",
+    "main.js.map": "/static/js/main.1d4b038b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bfca2edd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bfca2edd.js.map",
+    "static/css/2.543da19f.chunk.css": "/static/css/2.543da19f.chunk.css",
+    "static/js/2.ffca0d9b.chunk.js": "/static/js/2.ffca0d9b.chunk.js",
+    "static/js/2.ffca0d9b.chunk.js.map": "/static/js/2.ffca0d9b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8619eef9944636bbad0e9dfd2eb0fef0.js": "/precache-manifest.8619eef9944636bbad0e9dfd2eb0fef0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.543da19f.chunk.css.map": "/static/css/2.543da19f.chunk.css.map",
+    "static/css/main.f6026803.chunk.css.map": "/static/css/main.f6026803.chunk.css.map",
+    "static/js/2.ffca0d9b.chunk.js.LICENSE.txt": "/static/js/2.ffca0d9b.chunk.js.LICENSE.txt",
+    "static/media/home-benef.png": "/static/media/home-benef.c5d8c5e7.png",
+    "static/media/img1.jpg": "/static/media/img1.c6459561.jpg",
+    "static/media/img2.jpg": "/static/media/img2.58986750.jpg",
+    "static/media/img3.jpg": "/static/media/img3.cb331afa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfca2edd.js",
+    "static/css/2.543da19f.chunk.css",
+    "static/js/2.ffca0d9b.chunk.js",
+    "static/css/main.f6026803.chunk.css",
+    "static/js/main.1d4b038b.chunk.js"
+  ]
+}
