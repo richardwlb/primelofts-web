@@ -16,7 +16,7 @@
     background-color:white;
     padding: 20px;
     border-radius: 6px;
-    opacity: 98%;
+    /* opacity: 98%; */
 }
 
 img {
@@ -106,7 +106,7 @@ p, li {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        opacity: 93%;
+        /* opacity: 93%; */
         transform: translateY(100%);
 
     }
