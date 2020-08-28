@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Slides from '../../components/SlidesHome';
+// import SlidesHome from '../../components/SlidesHome';
 import Top from '../../components/Top';
 import Footer from '../../components/Footer';
 
@@ -12,9 +12,10 @@ import homeBenef from '../../assets/home-benef.png';
 export default function Home() {
   return (
     <>
-      <Top />
+    <Top />
+    <div className="main-container">
+      
       <div id="check-dates">
-
         <div className="check-item">
           <label>Check-in</label>
           <input type="date" name="checkIn" ></input>
@@ -37,10 +38,10 @@ export default function Home() {
 
 
           <button>Pesquisar</button>
-
+        </div>
 
       </div>
-      <Slides />
+      {/* <SlidesHome /> */}
       
       <img src={homeBenef} alt=""/>
       
@@ -65,7 +66,7 @@ export default function Home() {
       <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.2047892159408!2d-49.07364297986042!3d-26.896995050133103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df1f18dc472657%3A0x65de9fe70b4aab69!2sR.%20Dois%20de%20Setembro%2C%20Blumenau%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1597796077262!5m2!1spt-BR!2sbr" 
         title="Address"
-        width="400" 
+        width="600" 
         height="300" 
         frameborder="0" 
         style={{'border':1}}
@@ -77,6 +78,7 @@ export default function Home() {
 
       </div>
       <Footer />
+    
     </>
   );
 }

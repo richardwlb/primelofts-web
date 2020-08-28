@@ -1,7 +1,27 @@
+
+.footer {
+    padding: 7px;
+    height: 100%;
+    color: white;
+    background-color: #084B8A;
+    font:Roboto;
+}
+
+.footer div {
+    text-align: left;
+    /* margin-right: 30px; */
+}
+
+h4 {
+   font:Roboto; 
+}
+
+@media (min-width: 800px) {
 .footer {
     display: flex;
     padding: 7px;
     height: 150px;
+    width: 100%;
     color: white;
     justify-content: space-between;
     background-color: #084B8A;
@@ -14,6 +34,14 @@
     text-align: left;
     margin-right: 30px;
 }
+.footer h1 {
+    text-align: left;
+}
 
+.footer-contato {
+    width: 300px;
 
+}
+
+}
 

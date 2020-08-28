@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font: 400 14px Roboto, sans-serif;
-  background-color:white;
+  /* background-color:white; */
 }
 
 
@@ -18,7 +18,7 @@ code {
     monospace;
 }
 
-input, textarea{
+/* input, textarea{
   
     height: 2.5rem;
     margin-top: 0.1rem;
@@ -28,18 +28,8 @@ input, textarea{
     outline: 0;
     padding: 0 1.6rem;
     font: 1rem Roboto; 
-}
+} */
 
-.check-item:focus-within::after{
-  width: calc(100% - 3.2rem);
-  height: 2px;
-  content: '';
-  background: #084B8A;
-  position: absolute;
-  left: 1.6rem;
-  right: 1.6rem;
-  bottom: 0;
-}
 
 button {
   height: 2.5rem;

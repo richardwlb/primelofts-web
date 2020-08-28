@@ -6,9 +6,12 @@ const Footer = () => {
     return(
         <div className="footer">
                 <div >
-                    <h1>Entre em contato</h1>
-                    contao@primelofts.com.br
-                    <h4>047 99929-9999</h4>
+                    <div className="footer-contato">
+                        <h1>Entre em contato</h1>
+                        contao@primelofts.com.br
+                        <h4>047 99929-9999</h4>
+                    </div>
+                    
                 </div>
 
                 <div >

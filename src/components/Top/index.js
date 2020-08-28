@@ -7,8 +7,10 @@ const Top = () => {
     return (
         <>
             <div className="top-contact">
-                <h1>Prime Lofts</h1>
-                <h3>Lofts para férias e moradia</h3>
+                <div className="top-prime">
+                    <h1>Prime Lofts</h1>
+                    <h3>Lofts para férias e moradia</h3>
+                </div>
 
                 <div className="reservar">
                     contao@primelofts.com.br

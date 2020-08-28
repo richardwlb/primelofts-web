@@ -1,4 +1,43 @@
 .top-contact {
+    padding: 10px;
+    height: 14rem;
+    color: white;
+    background-color: #084B8A;
+    font:Roboto;
+    /* width: 100%; */
+}
+
+.reservar {
+    display: flex; 
+    flex-direction: column; 
+    align-content: center;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu a {
+    display: table-cell;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: opacity 0.5s;
+  }
+
+  .menu a:hover {
+    opacity: 0.6;
+  }
+
+
+@media (min-width: 800px) {
+.top-contact {
     display: flex;
     padding: 10px;
     height: 40px;
@@ -6,16 +45,20 @@
     justify-content: space-between;
     background-color: #084B8A;
     font:Roboto;
-    
-    box-shadow: 5px 5px 5px 2px #888888;
+    width: 100%;
 }
 
-.top-contact h3 {
+.top-prime {
+    display: flex;
+    width: 500px;
+}
+
+.top-prime h3 {
     margin-top: -4px;
     padding: 10px;
-    margin-left: -380px;
+    /* margin-left: -380px; */
 }
-.top-contact h1 {
+.top-prime h1 {
     margin-top: -5px;
     text-align: left;
 }
@@ -32,15 +75,16 @@
     justify-items: right;
     display: flex;
     flex-direction: row;
-    margin-right: 10px;
+    margin-right: 25px;
     align-content: center;
 }
 
 
 .menu {
     
-    height: 30px;
+    height: 5px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-content: space-between;
     padding: 30px;
@@ -49,15 +93,15 @@
 
 .menu a {
     display: table-cell;
-    padding: 15px;
+    padding: 14px;
     text-decoration: none;
-    color: black;
-    font-size: 17px;
+    color: #084B8A;
+    font-size: 17px bold;
     transition: opacity 0.5s;
   }
 
   .menu a:hover {
     opacity: 0.6;
   }
-
+}
 
